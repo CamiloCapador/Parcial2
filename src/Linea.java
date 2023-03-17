@@ -45,4 +45,9 @@ public class Linea {
                 ", tipoLlamada=" + tipoLlamada +
                 '}';
     }
+
+    public int LlamadaLocal(int Llamadas, int duracionLlamada, int tipoLlamada){
+        int costo = 60*this.duracionLlamada;
+        return costo;
+    }
 }
