@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class LineaLocal {
+public class LineaLocal extends Linea{
+
+
 }
